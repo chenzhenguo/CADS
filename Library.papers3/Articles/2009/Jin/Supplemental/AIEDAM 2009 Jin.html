@@ -1,0 +1,1847 @@
+<!DOCTYPE html>
+<!--[if IE 8 ]>    <html class="ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+ 
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>The Virtual Design Team: Modeling organizational behavior of concurrent design teams | AI EDAM | Cambridge Core</title>
+ 
+ 
+<link rel="icon" href="/core/cambridge-core/public/images/favicon.ico" type="image/x-icon"/>
+<link rel="shortcut icon" href="/core/cambridge-core/public/images/favicon.ico" type="image/x-icon"/>
+<link href='//fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="//www.cambridge.org/packages/cambridge_themes/stylesheets/global_nav/v1.2.min.css">
+<!--[if (gte IE 10)|!(IE)]><!-->
+<link rel="stylesheet" href="/core/cambridge-core/public/css/app.css"/>
+<link rel="dns-prefetch" href="https://usage.prod.aop.cambridge.org/v1/events">
+<link rel="stylesheet" href="/core/cambridge-core/public/bower_components/font-awesome/css/font-awesome.min.css"/>
+<script src="/core/cambridge-core/public/bower_components/jquery/dist/jquery.min.js"></script>
+<!--<![endif]-->
+ 
+ 
+ 
+<!--[if lt IE 10]>
+    <link rel="stylesheet" href="/core/cambridge-core/public/css/ie-8-9.css" />
+    <script src="/core/cambridge-core/public/js/ie8-head.min.js"></script>
+    <script src="/core/cambridge-core/public/js/jquery-1.11.2.min.js"></script>
+    <![endif]-->
+<script src="/core/cambridge-core/public/bower_components/modernizr/modernizr.js"></script>
+<meta property="og:site_name" content="Cambridge Core"/>
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="/core/journals/ai-edam/article/virtual-design-team-modeling-organizational-behavior-of-concurrent-design-teams/1E7B5165954C1B9B303E412933E28029"/>
+<meta property="og:title" content="The Virtual Design Team: Modeling organizational behavior of concurrent design teams | AI EDAM | Cambridge Core"/>
+<meta property="og:description" content="&lt;div class=&quot;title&quot;&gt;The Virtual Design Team: Modeling organizational behavior of concurrent design teams&lt;/div&gt; - Volume 9 Issue 2 - Yan Jin, Raymond E. Levitt, Tore R. Christiansen, John C. Kunz"/>
+<meta property="og:image" content=""/>
+<meta name="description" content="The Virtual Design Team: Modeling organizational behavior of concurrent design teams - Volume 9 Issue 2 - Yan Jin, Raymond E. Levitt, Tore R. Christiansen, John C. Kunz">
+<link rel="canonical" href="https://www.cambridge.org/core/journals/ai-edam/article/virtual-design-team-modeling-organizational-behavior-of-concurrent-design-teams/1E7B5165954C1B9B303E412933E28029">
+<meta name="citation_journal_title" content="AI EDAM">
+<meta name="citation_publisher" content="Cambridge University Press">
+<meta name="citation_title" content="The Virtual Design Team: Modeling organizational behavior of concurrent design teams">
+<meta name="citation_author" content="Yan Jin">
+<meta name="citation_author_institution" content="Stanford University">
+<meta name="citation_author" content="Raymond E. Levitt">
+<meta name="citation_author_institution" content="Stanford University">
+<meta name="citation_author" content="Tore R. Christiansen">
+<meta name="citation_author" content="John C. Kunz">
+<meta name="citation_author_institution" content="Stanford University">
+<meta name="citation_publication_date" content="1995/04">
+<meta name="citation_online_date" content="2009/02/01">
+<meta name="citation_volume" content="9">
+<meta name="citation_issue" content="2">
+<meta name="citation_firstpage" content="145">
+<meta name="citation_lastpage" content="158">
+<meta name="citation_issn" content="1469-1760">
+<meta name="citation_issn" content="0890-0604">
+<meta name="citation_keywords" content="Concurrent Design; Coordination; Organization Design; Simulation">
+<meta name="citation_doi" content="10.1017/S0890060400002183">
+<meta name="citation_pdf_url" content="https://www.cambridge.org/core/services/aop-cambridge-core/content/view/1E7B5165954C1B9B303E412933E28029/S0890060400002183a.pdf/div-class-title-the-virtual-design-team-modeling-organizational-behavior-of-concurrent-design-teams-div.pdf">
+<meta name="citation_reference" content="citation_title=Strategy for supporting organization and structuring of development teams in concurrent engineering; citation_author=Adachi, Toshiyuki; citation_author=Shih, Li Chung; citation_author=Enkawa, Takao; citation_publication_date=1994; citation_journal_title=International Journal of Human Factors in Manufacturing; citation_volume=4; citation_issue=2; citation_firstpage=101; citation_lastpage=120; citation_doi=10.1002/hfm.4530040202">
+<meta name="citation_reference" content=" K.  Carley  ,  J.  Kjaer-Hansen  ,  A.  Newell  , &amp;amp;amp;  M.  Prietula   (1992). Plural-Soar: A prolegomenon to artificial agents and organizational behavior. In Artificial Intelligence in Organization and Management Theory ( M.  Masuch   and  M.  Warglien  , Eds.), pp. 87–118. North-Holland, Amsterdam.">
+<meta name="citation_reference" content=" D.E.  Carter  , &amp;amp;amp;  B.S.  Baker   (1992). Concurrent Engineering—The Product Development Environment for the 1990s. Addison-Wesley, Reading, MA.">
+<meta name="citation_reference" content=" R.T.  Christiansen   (1993). Modeling efficiency and effectiveness of co-ordination in engineering design teams. Ph.D. Thesis. Stanford University, Stanford, CA.">
+<meta name="citation_reference" content="citation_title=A Garbage Can Model of Organizational Choice; citation_author=Cohen, Michael D.; citation_author=March, James G.; citation_author=Olsen, Johan P.; citation_publication_date=1972; citation_journal_title=Administrative Science Quarterly; citation_volume=17; citation_issue=1; citation_firstpage=1; citation_doi=10.2307/2392088">
+<meta name="citation_reference" content=" G.P.  Cohen   (1992). The Virtual Design Team: An information processing model of the design team management. Ph.D. Thesis. Stanford University, Stanford, CA.">
+<meta name="citation_reference" content=" R.M.  Cyert  , &amp;amp;amp;  J.G.  March   (1965). A Behavioral Theory of the Firm. Prentice-Hall, Englewood Cliffs, NJ.">
+<meta name="citation_reference" content=" S.M.  Davis  , &amp;amp;amp;  P.R.  Lawrence   (1977). Matrix. Addison-Wesley, Reading, MA.">
+<meta name="citation_reference" content=" J.R.  Galbraith   (1977). Organization Design. Addison-Wesley, Reading, MA.">
+<meta name="citation_reference" content=" L.  Gasser  , &amp;amp;amp;  M.N.  Huhns  , (Eds. 1989). Distributed Artificial Intelligence II. Pitman, London.">
+<meta name="citation_reference" content=" D.  Gebala  , &amp;amp;amp;  S.D.  Eppinger   (1991). Methods for analyzing design procedures. Third Intnl. ASME Conf. on Design Theory and Methodology, Miami, FL.">
+<meta name="citation_reference" content=" J.  Hauser  , &amp;amp;amp;  D.  Clausing   (1988). The house of quality. Harvard Business Rev. May-June.">
+<meta name="citation_reference" content="citation_title=i-AGENTS: Modeling Organizational Problem Solving in Multi-Agent Teams; citation_author=Jin, Yan; citation_author=Levitt, Raymond E.; citation_publication_date=1993; citation_journal_title=Intelligent Systems in Accounting, Finance and Management; citation_volume=2; citation_issue=4; citation_firstpage=247; citation_lastpage=270; citation_doi=10.1002/j.1099-1174.1993.tb00046.x">
+<meta name="citation_reference" content="citation_title=Assessing organizational readiness for implementing concurrent engineering practices and collaborative technologies; citation_author=Karandikar, H.M.; citation_author=Fotta, M.E.; citation_author=Lawson, M.; citation_author=Wood, R.T.; citation_publication_date=1993">
+<meta name="citation_reference" content=" R.E.  Levitt  ,  Y.  Jin  , &amp;amp;amp;  C.L.  Dym   (1991). Knowledge-based support for management of concurrent, multidisciplinary design. J. Artif. Intell. Eng. Des. Anal. Manuf. (5)2, 77–95.">
+<meta name="citation_reference" content=" J.G.  March  , &amp;amp;amp;  H.A.  Simon   (1958). Organizations. John Wiley, New York.">
+<meta name="citation_reference" content=" J.G.  March   (1988). Decisions and Organizations. Basil Blackwell, Oxford, UK.">
+<meta name="citation_reference" content="citation_title=Beyond Garbage Cans: An Al Model of Organizational Choice; citation_author=Masuch, Michael; citation_author=LaPotin, Perry; citation_publication_date=1989; citation_journal_title=Administrative Science Quarterly; citation_volume=34; citation_issue=1; citation_firstpage=38; citation_doi=10.2307/2392985">
+<meta name="citation_reference" content=" J.W.  Meyer  , &amp;amp;amp;  B.  Rowan   (1993). Institutionalized organizations: Formal structure as myth and ceremony. Amer. J. Sociology, 343–63.">
+<meta name="citation_reference" content=" H.  Mintzberg   (1979). The Structuring of Organizations. Prentice-Hall, Englewood Cliffs, NJ.">
+<meta name="citation_reference" content=" H.  Mintzberg   (1983). Structuring in Fives: Designing Effective Organizations. Prentice-Hall, Englewood Cliffs, NJ.">
+<meta name="citation_reference" content=" J.J.  Moder  ,  C.R.  Phillips  , &amp;amp;amp;  E.W.  Davis   (1983). Project Management with CPM, PERT and Precedence Diagramming. Van Nostrand Reinhold, New York.">
+<meta name="citation_reference" content=" D.  Nadler  , &amp;amp;amp;  M.  Tushman   (1988). Strategic Organization Design-Concepts, Tools and Processes. Scott, Foresman, Glenview, IL.">
+<meta name="citation_reference" content=" W.R.  Scott   (1992). Organizations: Rational, Natural, and Open Systems, 3rd ed. Prentice-Hall, Englewood Cliffs, NJ.">
+<meta name="citation_reference" content=" H.A.  Simon   (1976). Administrative Behavior: A Study of Decision-Making Processes in Administrative Organization. Free Press, New York.">
+<meta name="citation_reference" content=" J.D.  Thompson   (1967). Organizations in Action: Social Science Bases in Administrative Theory. McGraw-Hill, New York.">
+<meta name="citation_reference" content=" P.  Willems   (1988). A functional network for product modeling. Technical Report PLI-88–16, IBBC-TNO, Rijkswijk, Netherlands.">
+<link rel="alternate" href="/core/journals/ai-edam/article/virtual-design-team-modeling-organizational-behavior-of-concurrent-design-teams/1E7B5165954C1B9B303E412933E28029" hreflang="en"/> <script> (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function() { (i[r].q=i[r].q||[]).push(arguments)} ,i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','https://www.google-analytics.com/analytics.js','ga'); ga('create', 'UA-86516288-1', 'auto'); ga('send', 'pageview'); </script>
+</head>
+<body>
+<a id="skiptocontent" href="#maincontent">Skip to main content</a>
+<div class="cookie-message">
+<div class="row">
+<div class="small-11 columns">
+<p>We use cookies to distinguish you from other users and to provide you with a better experience on our websites. Close this message to accept cookies or find out how to <a href="http://www.cambridge.org/about-us/legal-notices/cookies-policy/" target="_blank">manage your cookie settings</a>.</p>
+</div>
+<div class="small-1 columns">
+<a href="#" onclick="closeMessage();" class="cookie-close">
+<!--[if IE 8 ]>
+                  <img alt = "Close cookie message" title = "Close cookie message" src = "/core/cambridge-core/public/images/icn_circle__btn_close_white.png">
+                  <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<img alt="Close cookie message" title="Close cookie message" src="/core/cambridge-core/public/images/icn_circle__btn_close_white.svg">
+<!--<![endif]-->
+</a>
+</div>
+</div>
+</div>
+<script>
+  var cookieMessage = $('.cookie-message');
+  var cookieName = 'EULAW';
+  var closeMessage = function () {
+      $.cookie(cookieName, true, {expires: 365, path:'/'});
+      cookieMessage.slideUp().promise().done(function () {
+          cookieMessage.remove();
+      });
+  };
+  $(document).ready(function () {
+      if ($.cookie(cookieName) !== 'true') {
+          cookieMessage.slideDown();
+      }
+  });
+  </script>
+<div id="login-modal" class="reveal-modal small" data-reveal>
+<div class="wrapper large-margin-top-for-small-only">
+<div class="row margin-top">
+<div class="large-12 columns">
+<div class="panel callout message"></div>
+</div>
+</div>
+<div class="row margin-top">
+<div class="small-6 large-6 columns"><a href="#" onclick="$('#login-modal').foundation('reveal', 'close');return false;" class="right small button radius transparent cancel">Cancel</a></div>
+<div class="small-6 large-6 columns">
+<a href="/core/login?ref=%2Fcore%2Fjournals%2Fai-edam%2Farticle%2Fvirtual-design-team-modeling-organizational-behavior-of-concurrent-design-teams%2F1E7B5165954C1B9B303E412933E28029" class="left small radius button blue confirm login">Log in</a>
+</div>
+</div>
+<a class="close-reveal-modal">&#215;</a>
+</div>
+</div>
+<header>
+<div class="contain-to-grid" id="mainWrapper">
+<!--[if IE 7]>
+    <div id="global-nav" style="display: none"></div>
+      <![endif]-->
+<!--[if gte IE 8]><!-->
+<div id="global-nav"></div>
+<!--<![endif]-->
+<div class="clear"></div>
+</div>
+</header>
+<div class="off-canvas-wrap desktop overflow-visible">
+<div class="inner-wrap">
+</div>
+</div>
+<div class="row print-only">
+<div class="small-12 columns">
+<img src="/core/cambridge-core/public/images/logo_core.png" class="core-logo" alt=""/>
+</div>
+</div>
+<section class="sub-header slide-up">
+<div class="row">
+<div class="column">
+<a href="/core/">
+<div class="logo-core"><span class="show-for-sr">Home</span></div>
+</a>
+<form class="subject-search search-form prevent-empty-search no-margin-right" action="/core/search" method="GET">
+<div class="row">
+<div class="row collapse postfix-radius">
+<div class="submit-in-field js-outglow-parent clearfix">
+<div class="small-10 columns">
+<input type="text" name="q" value="" autocomplete="off" class=" js-outglow prefix-radius" placeholder="Search all journal & book content" aria-label="Search all journal & book content">
+</div>
+<div class="small-2 columns">
+<input type="submit" value="Submit search" class="button postfix">
+</div>
+</div>
+ 
+<label class="accessible"><input type="checkbox" name="checkbox" value="value">Only search content I have access to</label>
+</div>
+</div>
+</form>
+</div>
+</div>
+</section>
+<section class="menu secondary">
+<div class="row wrapper">
+<div class="column">
+<ul>
+<li><a href="#" class="menu-icon"></a></li>
+</ul>
+<ul class="sub-nav  dropdown-menu-mobile" role="menu">
+<li class="show-for-small"><a href="/core/login?ref=">Log in</a></li>
+<li class="show-for-small"><a href="/core/register">Register</a></li>
+ 
+<li><a href="/core/browse-subjects" class="no-padding-left-for-large">Browse subjects</a></li>
+<li><a href="/core/what-we-publish">What we publish</a></li>
+<li><a href="/core/services">Services</a></li>
+<li><a href="/core/about">About Cambridge Core</a></li>
+<li class="show-for-small"><a href="/core/cart">
+<span class="icon"></span>
+<span>Cart</span>
+<span class="no-of-items kkPopupCartTilePlaceholder"> </span>
+</a>
+</li>
+</ul>
+<div class="right">
+<ul class="show-for-small-only profile-mobile">
+<li>
+<a href="#" class="menu-icon account menu account-loggedin identities no-logo"><img src=""/></a>
+</li>
+<li><a href="#" class="button transparent radius search-small"><span class="icon mobile-search grey"></span></a></li>
+ 
+</ul>
+<ul class="sub-nav dropdown-menu-mobile profile" role="menu">
+<li class="hide-for-personal institution-name access-provided-by">
+<a href="#" class="name hide-for-small" id="institution-current">Access provided by</a>
+<ul id="institutions-dropdown" class="f-dropdown hide-for-small" aria-hidden="true" tabindex="-1">
+<li class="institution">
+<a class="display-name-8a9402095413b9bc015413e2bdc91336" data-no-link>Carnegie Mellon University
+</a>
+</li>
+<li><a class="button small blue radius" href="/core/login#institution-login">Manage institution login</a></li>
+</ul>
+<ul class="show-for-small hide-for-personal institutions">
+<li><a href="#">Logged in as: Carnegie Mellon University</a></li>
+<li><a class="button small blue radius" href="/core/login#institution-login">Manage institution login</a></li>
+</ul>
+</li>
+<li class="hide-for-personal hide-for-small institution-primary-logo" style="display:none">
+<a href="#"></a>
+</li>
+<li class="divider"></li>
+<li class="hide-for-small register">
+<a href="/core/register?ref=%2Fcore%2Fjournals%2Fai-edam%2Farticle%2Fvirtual-design-team-modeling-organizational-behavior-of-concurrent-design-teams%2F1E7B5165954C1B9B303E412933E28029" class="button small radius transparent">Register</a>
+</li>
+<li class="hide-for-identities hide-for-medium-up">
+<a href="/core/register?ref=%2Fcore%2Fjournals%2Fai-edam%2Farticle%2Fvirtual-design-team-modeling-organizational-behavior-of-concurrent-design-teams%2F1E7B5165954C1B9B303E412933E28029">Register</a>
+</li>
+<li class="hide-for-identities">
+<a href="/core/login?ref=%2Fcore%2Fjournals%2Fai-edam%2Farticle%2Fvirtual-design-team-modeling-organizational-behavior-of-concurrent-design-teams%2F1E7B5165954C1B9B303E412933E28029" class="button small radius blue">Log in</a>
+</li>
+<li class="divider"></li>
+<li class="hide-for-small cart"><a href="/core/cart">
+<span class="icon"></span>
+<span>Cart</span>
+<span class="no-of-items kkPopupCartTilePlaceholder"> </span>
+</a>
+</li>
+</div>
+</div>
+</div>
+</section>
+<section class="breadcrumbs-wrapper smaller">
+<div class="row">
+<ul class="large-2 column backToSearch hide">
+<li>
+<a href="#">&lt; Back to search results</a>
+</li>
+</ul>
+<script type="text/javascript">
+        var searchResultKey = 'fromSearch';
+        var $backToSearch = $('.backToSearch');
+        var fromSearch = localStorage.getItem(searchResultKey);
+    
+        if (fromSearch) {
+            $backToSearch.find('li a').attr('href', fromSearch);
+            $backToSearch.removeClass('hide');
+            localStorage.removeItem(searchResultKey);
+        }
+    </script>
+<ul class="large-10 column breadcrumbs">
+<li><a href="/core/">Home</a></li><li><a href="/core/what-we-publish/journals">Journals</a></li><li><a href="/core/journals/ai-edam">AI EDAM</a></li><li><a href="/core/journals/ai-edam/issue/D14F2A0A1EC4E8656F7308D7AB404BFD">Volume 9 Issue 2</a></li><li class="current"><a href="#">The Virtual Design Team: Modeli...</a></li>
+</ul>
+</div>
+</section>
+<div class="flash-message-container">
+<div class="flash-message">
+<div id="ajaxMessages" class="ajaxMessages"></div>
+</div>
+</div>
+<div class="article-wrapper">
+<section class="banner article small  " style="background-image: url(/core/services/aop-file-manager/file/5677e8f165c931200cbed799)">
+<div class="content">
+<div class="center-all-container">
+<div class="center-all">
+<div class="row">
+<div class="large-8 medium-8 small-12 column banner-title">
+<div class="title title-left white">AI&nbsp;EDAM</div>
+</div>
+<div class="large-4 medium-4 small-12 column hide-for-print">
+<form action="/core/journals/ai-edam/listing" method="GET" class="search-form">
+<div class="row">
+<div class=" columns ">
+<div class="row collapse postfix-radius search-input js-outglow-parent">
+<div class="small-10 columns">
+<input type="text" name="q" value="" autocomplete="off" class=" js-outglow prefix-radius" placeholder="Search AI EDAM" aria-label="Search AI EDAM">
+<input type="hidden" name="searchWithinIds" id="searchWithinIds" value="46E50286DF9E9F8A8D580AE2272FAE40"/>
+</div>
+<div class="small-2 columns">
+<input type="submit" value="Submit search" class="button postfix">
+</div>
+</div>
+</div>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<div class="column large-12 page-tabs">
+<div class="row">
+<div class="tab-title current-mobile hide-for-large-up">
+<a href="">Article</a>
+<div class="blue-square"><a href="" class="icon arrow"></a></div>
+</div>
+<ul class="tabs" data-tab data-options="deep_linking:true; scroll_to_content:false">
+<li class="tab-title active"><a href="#information">Article</a></li>
+<li class="tab-title"><a href="#metrics">Metrics</a></li>
+</ul>
+<ul class="social white right hide-for-small hide-for-medium">
+<li>
+<a href="#" data-prod-id="1E7B5165954C1B9B303E412933E28029" onclick="return false;" data-hasqtip="Bookmark added. Go to My account to manage your bookmarked content." aria-describedby="qtip-text" class="icon is-bookmarked bookmark active" style="display:none"></a>
+<a href="#" data-hasqtip="Add bookmark" aria-describedby="qtip-text" data-prod-id="1E7B5165954C1B9B303E412933E28029" data-prod-type="JOURNAL_ARTICLE" data-bookmark class="icon not-bookmarked bookmark requires-login"></a>
+<input type="hidden" name="_csrf" value="llbpWNNQ-ktonUkHPLq9e8Dswj21laujdt4o">
+</li>
+<li><a href="http://www.cambridge.org/academic/journals-content-alerts/" target="_blank" data-hasqtip="Set alert" aria-describedby="qtip-text" class="icon alert"></a>
+</li>
+<li>
+<a href="#" data-hasqtip="Share" aria-describedby="qtip-text" class="icon share"></a>
+</li>
+</ul>
+</div>
+</div>
+<div class="tabs-content" id="maincontent">
+<div class="content active" id="information">
+<section class="row">
+<div class="large-12 columns">
+<div class="split-panel opposite-cols">
+<div class="wrapper">
+<div class="page-operatives enable-full-width margin-top-for-small margin-top-for-medium">
+<div class="small-12 large-9 column main-column">
+</div>
+<div class="small-12 large-3 large-offset-9 narrow-column hide-for-medium hide-for-small">
+<ul class="text-resizer-controls left">
+<li>
+<ul id="text-resizer-controls" class="textresizer ">
+<li class="standard-text textresizer-active">Aa</li>
+<li class="large-text">Aa</li>
+</ul>
+</li>
+</ul>
+<ul class="right">
+<li class="icon toggle close"></li>
+</ul>
+</div>
+</div>
+<div class="panel large-9 small-12 column main-column article-page left">
+<ul class="social white left hide-for-large-up">
+<li>
+<a href="#" data-prod-id="1E7B5165954C1B9B303E412933E28029" onclick="return false;" class="icon is-bookmarked bookmark active" style="display:none"></a>
+<a href="#" data-prod-id="1E7B5165954C1B9B303E412933E28029" data-prod-type="JOURNAL_ARTICLE" data-bookmark class="icon not-bookmarked bookmark requires-login"></a>
+</li>
+<li><a href="http://www.cambridge.org/academic/journals-content-alerts/" target="_blank" data-hasqtip="Set alert" aria-describedby="qtip-text" class="icon alert"></a>
+</li>
+<li>
+<a href="#" data-hasqtip="Share" aria-describedby="qtip-text" class="icon share"></a>
+</li>
+</ul>
+<div class="article-meta overview">
+<ul class="access">
+<li class="citation"></span>Cited by <a href="#" data-reveal-id="productCitations"><span class="number">6</span></a></li>
+<li>
+<div id="productCitations" class="reveal-modal medium" data-reveal>
+<div class="header">
+<div class="heading_07 margin-bottom">Cited by</div>
+</div>
+<div class="row collapse header margin-top productCitations-content">
+<ul class="small-12 small-centered columns citations">
+<li class="fade-in section-container active">
+<a href="#" class="section-button" data-id="crossref-citations">
+<div class="circular medium citation">
+<img src="https://assets.crossref.org/logo/crossref-logo-100.png" alt="Crossref logo">
+ 
+<span class="citation-count">6</span>
+</div>
+</a>
+</li>
+<li class="fade-in section-container">
+<a href="#" class="section-button" data-id="scholar-citations">
+<div class="circular medium citation">
+<img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Google_Scholar_logo_2015.PNG" alt="Google Scholar logo">
+</div>
+</a>
+</li>
+</ul>
+</div>
+<div class="row wrapper no-padding-top section-content">
+<div class="small-10 small-centered columns">
+<section class="content" id="crossref-citations">
+<div class="large-12 columns">
+<div class="panel margin-top-small citation-container">
+<div class="row">
+<div class="medium-12 columns">
+<div class="print-only print-heading margin-bottom-large">Crossref Citations</div>
+<div class="row margin-bottom">
+<div class="small-1 columns">
+<a href="http://www.crossref.org/citedby/index.html" target="_blank">
+<img src="http://assets.crossref.org/logo/crossref-logo-100.png" alt="Crossref logo">
+</a>
+</div>
+<div class="small-11 columns">
+<h5 class="heading_10">This article has been
+cited by the following publications. This list is generated based on data provided by <a href="http://www.crossref.org/citedby/index.html" target="_blank">CrossRef</a>.</h5>
+</div>
+</div>
+<hr/>
+ 
+<p class="reference-display">
+Singh, Vishal
+Dong, Andy
+and
+Gero, John S.
+2013.
+Social learning in design teams: The importance of direct and indirect communications.
+<i>Artificial Intelligence for Engineering Design, Analysis and Manufacturing</i>,
+Vol. 27,
+Issue. 02,
+p.
+167.
+</p>
+<ul class="reference-list">
+<li><a href="https://doi.org/10.1017/S0890060413000061" target="_blank">CrossRef</a></li>
+<li><a href="https://scholar.google.com/scholar_lookup?title=Social+learning+in+design+teams:+The+importance+of+direct+and+indirect+communications&amp;author=Singh+Vishal+Dong+Andy+Gero+John+S.&amp;publication_year=2013" target="_blank">Google Scholar</a></li>
+</ul>
+<hr/>
+ 
+<div class="reference-display">
+Cisse, Adji G.
+and
+Wyrick, David A.
+2009.
+<i>PICMET &#x27;09 - 2009 Portland International Conference on Management of Engineering &amp; Technology</i>.
+p.
+2105.
+</div>
+<ul class="reference-list">
+<li><a href="https://doi.org/10.1109/PICMET.2009.5261898" target="_blank">CrossRef</a></li>
+<li><a href="https://scholar.google.com/scholar_lookup?title=PICMET+&#x27;09+-+2009+Portland+International+Conference+on+Management+of+Engineering+&amp;+Technology&amp;author=Cisse+Adji+G.+Wyrick+David+A.&amp;publication_year=2009" target="_blank">Google Scholar</a></li>
+</ul>
+<hr/>
+ 
+<p class="reference-display">
+Haque, B
+Pawar, K.S
+and
+Barson, R.J
+2003.
+The application of business process modelling to organisational analysis of concurrent engineering environments.
+<i>Technovation</i>,
+Vol. 23,
+Issue. 2,
+p.
+147.
+</p>
+<ul class="reference-list">
+<li><a href="https://doi.org/10.1016/S0166-4972(01)00103-1" target="_blank">CrossRef</a></li>
+<li><a href="https://scholar.google.com/scholar_lookup?title=The+application+of+business+process+modelling+to+organisational+analysis+of+concurrent+engineering+environments&amp;author=Haque+B+Pawar+K.S+Barson+R.J&amp;publication_year=2003" target="_blank">Google Scholar</a></li>
+</ul>
+<hr/>
+ 
+<p class="reference-display">
+Haque, Badr
+and
+Pawar, Kulwant S.
+2003.
+Organisational analysis.
+<i>Business Process Management Journal</i>,
+Vol. 9,
+Issue. 4,
+p.
+490.
+</p>
+<ul class="reference-list">
+<li><a href="https://doi.org/10.1108/14637150310484535" target="_blank">CrossRef</a></li>
+<li><a href="https://scholar.google.com/scholar_lookup?title=Organisational+analysis&amp;author=Haque+Badr+Pawar+Kulwant+S.&amp;publication_year=2003" target="_blank">Google Scholar</a></li>
+</ul>
+<hr/>
+ 
+<p class="reference-display">
+2001.
+<i>Designing Capable and Reliable Products</i>.
+</p>
+<ul class="reference-list">
+<li><a href="https://doi.org/10.1016/B978-075065076-2/50020-9" target="_blank">CrossRef</a></li>
+</ul>
+<hr/>
+ 
+<div class="reference-display">
+Scherer, A.
+1997.
+<i>Proceedings of the Thirtieth Hawaii International Conference on System Sciences</i>.
+Vol. 2,
+Issue. ,
+p.
+589.
+</div>
+<ul class="reference-list">
+<li><a href="https://doi.org/10.1109/HICSS.1997.665680" target="_blank">CrossRef</a></li>
+<li><a href="https://scholar.google.com/scholar_lookup?title=Proceedings+of+the+Thirtieth+Hawaii+International+Conference+on+System+Sciences&amp;author=Scherer+A.&amp;publication_year=1997" target="_blank">Google Scholar</a></li>
+</ul>
+<hr/>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section style="display:none" class="content" id="scholar-citations">
+<div class="large-12 columns">
+<div class="panel margin-top-small citation-container">
+<div class="row">
+<div class="medium-12 columns">
+<div class="print-only print-heading margin-bottom-large">Google Scholar Citations</div>
+<p>View all <a href="https://scholar.google.com/scholar?hl=en&lr=&cites=https://doi.org/10.1017/S0890060400002183" target="_blank">Google Scholar citations</a> for this article.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section style="display:none" class="content" id="scopus-citations">
+<div class="large-12 columns">
+<div class="panel margin-top-small citation-container">
+<div class="row">
+<div class="medium-12 columns">
+<div class="print-only print-heading margin-bottom-large">Scopus Citations</div>
+<p><a href="" target="_blank">View all citations for
+this article on Scopus</a></p>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+<a class="close-reveal-modal">×</a>
+</div>
+<script>
+                                      $(document).ready(function () {
+                                        $('#productCitations .section-button').on('click', function (e) {
+                                          e.preventDefault();
+                                          var id = $(this).attr('data-id');
+                                          $('.section-content section').hide();
+                                          $('.section-container').removeClass('active');
+                                          $(this).parent('.section-container').addClass('active');
+                                          $('#' + id).show();
+                                        });
+                                      });
+                                    </script>
+<style>.productCitations-content li{}</style>
+</li>
+<div class="access-modal">
+<li class="status entitled">
+<span class="entitled" title="You have access to this product">Access</span>
+<span class="icon access entitled cursorDefault" title="You have access to this product"></span>
+</li>
+<li class="status open-access">
+</li>
+</div>
+</ul>
+<ul class="title-volume-issue">
+<li class="title ">
+<a class="force-inline" title="Volume 9 " href="/core/journals/ai-edam/volume/6CF526752EA23E64328E6B36F74FD945">Volume 9</a>,
+<a class="force-inline" title="Issue 2 " href="/core/journals/ai-edam/issue/D14F2A0A1EC4E8656F7308D7AB404BFD">Issue 2 </a>
+</li>
+<li class="published">
+<span class="date">April 1995</span><span class="date">, pp. 145-158</span>
+</li>
+</ul>
+</div>
+<div id="Top" class="reading-width">
+<div class="article-page">
+<div class="overview no-margin-bottom">
+<div class="divider print-only margin-top-large"></div>
+<h1 class="article-title">The Virtual Design Team: Modeling organizational behavior of concurrent design teams</h1>
+<ul class="details no-padding-bottom">
+<li class="author">
+<a href="/core/search?filters%5BauthorTerms%5D=Yan Jin&eventCode=SE-AU" class="more-by-this-author ">Yan Jin</a> <sup data-affiliation-id="a1" class="">(a1)</sup><span class="separator ">, </span><a href="/core/search?filters%5BauthorTerms%5D=Raymond E. Levitt&eventCode=SE-AU" class="more-by-this-author ">Raymond E. Levitt</a> <sup data-affiliation-id="a1" class="">(a1)</sup><span class="separator ">, </span><a href="/core/search?filters%5BauthorTerms%5D=Tore R. Christiansen&eventCode=SE-AU" class="more-by-this-author ">Tore R. Christiansen</a> <sup data-affiliation-id="a2" class="">(a2)</sup><span class="separator "> and </span><a href="/core/search?filters%5BauthorTerms%5D=John C. Kunz&eventCode=SE-AU" class="more-by-this-author ">John C. Kunz</a> <sup data-affiliation-id="a1" class="">(a1)</sup>
+<i class="icon open-drawer small toggle-affiliations" aria-label="View all author information"></i>
+</li>
+<div id="author-affiliations" style="display:none" class="margin-bottom margin-top">
+<ul class="full-contributor-listing">
+<li id="a1" class="contributor-affiliation"><strong><sup>(a1)</sup></strong> <div><div class="aff"><span class='label'><span class='sup'>1</span></span><addrLine>Department of Civil Engineering</addrLine>, <institution type='simple'>Stanford University</institution>, <addrLine>Stanford</addrLine>, <addrLine>CA 94305-4020</addrLine>, <country>U.S.A.</country></div></div></li><li id="a2" class="contributor-affiliation"><strong><sup>(a2)</sup></strong> <div><div class="aff"><span class='label'><span class='sup'>2</span></span><addrLine>Det Norske Veritas Research AS</addrLine>, <addrLine>Vertasveien 1</addrLine>, <addrLine>N-1322 Hovik</addrLine>, <country>Norway</country>.</div></div></li>
+</ul>
+</div>
+<script>
+                                                        $('.author i').on('click', function (e) {
+                                                            e.preventDefault();
+                                                            var $authorAffiliations = $('#author-affiliations');
+                                                            var $hiddenAuthors = $('.hidden-author');
+                                                            var $button = $(this);
+                                                            $authorAffiliations.toggle();
+                                                            $button.toggleClass('close');
+                                                            $hiddenAuthors.toggleClass('hide');
+                                                            if ($authorAffiliations.is(':visible')) {
+                                                                $button.attr('aria-label', 'Hide all author information');
+                                                            } else {
+                                                                $button.attr('aria-label', 'View all author information');
+                                                            }
+                                                        });
+                                                    </script>
+<li>
+<ul class="article-components">
+<li class="source">DOI: <a href="https://doi.org/10.1017/S0890060400002183" target="_blank" class="url">https://doi.org/10.1017/S0890060400002183</a></li>
+<li class="published">Published online: <span class="date">01 February 2009</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="overview article-overview">
+<div class="abstract-text">
+<div class="divider less-space"> </div>
+<div class="row">
+<div class="large-2 medium-2 small-12 columns abstract-title-wrapper">
+<div id="abstract" class="summary-title">Abstract</div>
+</div>
+<div class="large-10 medium-10 small-12 columns">
+<div class="description">
+<div class="abstract" data-abstract-type="normal"><title>Abstract</title><p>Concurrent engineering is a systematic approach to the integrated, concurrent design of products and the related processes of manufacturing and support. This approach is intended to cause the developers, from the outset, to consider all elements of the product life cycle from concept through disposal, including quality, cost, schedule, and user requirements. To achieve successful concurrent-engineering design, one needs an integrated framework, a well-organized design team, and adequate design tools. The research on concurrent engineering to date has focused on developing communication infrastructure, design tools, and product data representations. Little attention has been paid to developing tools to address the organizational issues involved in concurrent engineering. The authors’ research on the Virtual Design Team (VDT) attempts to develop a computerized analysis tool to sup-port the systematic design of organization structures for concurrent engineering projects. VDT is a computer simulation system. It takes descriptions of design tasks, actors (i.e., designers and managers), and organization structure as input, and produces predicted historical records of the actors’ design and coordination behavior, project du-ration, cost, and design process quality as output. VDT has been applied to model more than ten realistic engineering projects, and the results are qualitatively consistent with the predictions from theory and project managers. The VDT framework for modeling concurrent-engineering teams is described, and examples of VDT applications are presented to demonstrate the effectiveness of the Virtual Design Team approach to modeling the organizational behavior of concurrent design teams.</p></div>
+</div>
+</div>
+</div>
+<div class="divider less-space"> </div>
+<div class="article-actions">
+<div>
+<ul class="file-actions">
+<li>
+<ul class="tabs grey download-types">
+ 
+<li>
+ 
+<a href="/core/services/aop-cambridge-core/content/view/1E7B5165954C1B9B303E412933E28029/S0890060400002183a.pdf/virtual_design_team_modeling_organizational_behavior_of_concurrent_design_teams.pdf" data-pdf-content-id="1E7B5165954C1B9B303E412933E28029" target="_blank" data-hasqtip="Download PDF" aria-describedby="qtip-text">
+<div class="icon pdf"></div>
+</a>
+</li>
+<li><a href="#" data-reveal-id="kindleModal" data-hasqtip="Send to Kindle" aria-describedby="qtip-text"><div class="icon kindle"></div></a></li>
+<li><a href="#" data-reveal-id="googleDriveModal" data-hasqtip="Send to Google Drive" aria-describedby="qtip-text"><div class="icon google-drive"></div></a></li>
+<li><a href="#" data-reveal-id="dropboxModal" data-hasqtip="Send to Dropbox" aria-describedby="qtip-text"><div class="icon dropbox"></div></a></li>
+<div id="kindleModal" class="reveal-modal large" data-reveal>
+<div class="header">
+<div class="heading_07">Send article to Kindle</div>
+</div>
+<div class="panel">
+<div class="row">
+<div class="large-12 columns margin-bottom">
+<p>
+To send this article to your Kindle, first ensure no-reply@cambridge.org
+is added to your Approved Personal Document E-mail List under your Personal Document Settings
+on the Manage Your Content and Devices page of your Amazon account. Then enter the ‘name’ part
+of your Kindle email address below.
+<a href="/core/help">Find out more about sending to your Kindle</a>.
+</p>
+<p>
+Note you can select to send to either the @free.kindle.com or @kindle.com variations.
+‘@free.kindle.com’ emails are free but can only be sent to your device when it is connected to wi-fi.
+‘@kindle.com’ emails can be delivered even when you are not connected to wi-fi, but note that service fees apply.
+</p>
+<p>
+Find out more about the <a href="http://www.amazon.com/gp/help/customer/display.html/ref=kinw_myk_wl_ln?ie=UTF8&nodeId=200767340#fees" target="_blank">Kindle Personal Document Service</a>.
+</p>
+</div>
+</div>
+<div class="row book-title">
+<div class="small-12 columns">
+<div class="heading_08"><div class="title">The Virtual Design Team: Modeling organizational behavior of concurrent design teams</div></div>
+</div>
+</div>
+<div class="row book-details book-overview">
+<div class="small-12 columns">
+<ul>
+<li class="volume-issue">Volume 9, <a href="/core/journals/ai-edam/issue/D14F2A0A1EC4E8656F7308D7AB404BFD">Issue 2</a></li>
+<li class="author">
+<a href="/core/search?filters%5BauthorTerms%5D=Yan Jin&eventCode=SE-AU" class="more-by-this-author ">Yan Jin</a> <sup data-affiliation-id="a1" class="">(a1)</sup><span class="separator ">, </span><a href="/core/search?filters%5BauthorTerms%5D=Raymond E. Levitt&eventCode=SE-AU" class="more-by-this-author ">Raymond E. Levitt</a> <sup data-affiliation-id="a1" class="">(a1)</sup><span class="separator ">, </span><a href="/core/search?filters%5BauthorTerms%5D=Tore R. Christiansen&eventCode=SE-AU" class="more-by-this-author ">Tore R. Christiansen</a> <sup data-affiliation-id="a2" class="">(a2)</sup><span class="separator "> and </span><a href="/core/search?filters%5BauthorTerms%5D=John C. Kunz&eventCode=SE-AU" class="more-by-this-author ">John C. Kunz</a> <sup data-affiliation-id="a1" class="">(a1)</sup>
+</li>
+<li class="meta-info">DOI: <a href="https://doi.org/10.1017/S0890060400002183" target="_blank" class="url">https://doi.org/10.1017/S0890060400002183</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="row wrapper no-padding-top">
+<div class="small-12 columns">
+<div class="row margin-top">
+<div class="large-12 columns">
+<form id="sendTokindleForm" action="/core/services/aop-cambridge-core/sendto" method="GET">
+<fieldset>
+<legend>
+<label for="kindleEmailAddress">Your Kindle email address</label>
+</legend>
+<div class="row">
+<div class="large-6 columns">
+<input name="kindleEmailAddress" id="kindleEmailAddress" type="text" value="" required="required"/>
+<small class="error kindleEmailAddress" style="display:none">Please provide your Kindle email.</small>
+</div>
+<div class="large-6 columns">
+<label class="dInlineBlock"><input name="kindleEmailDomain" type="radio" checked="checked" value="free.kindle.com"/>@free.kindle.com</label>
+<label class="dInlineBlock"><input name="kindleEmailDomain" type="radio" value="kindle.com"/>@kindle.com (<a href="http://www.amazon.com/gp/help/customer/display.html/ref=kinw_myk_wl_ln?ie=UTF8&nodeId=200767340#fees" target="_blank">service fees apply</a>)</label>
+</div>
+</div>
+</fieldset>
+<div class="row">
+<div class="large-12 columns">
+<fieldset>
+<legend>Available formats</legend>
+<label>
+<input type="checkbox" name="formats" class="formats" value="pdf" required /> PDF
+</label>
+<small class="error formats" style="display:none">Please select a format to send.</small>
+</fieldset>
+</div>
+</div>
+<div class="row">
+<div class="large-12 columns">
+<label for="usagePolicykindle">
+<input type="checkbox" name="usagePolicykindle" id="usagePolicykindle" value="Usage" required />
+By using this service, you agree that you will only keep articles for personal use, and will not openly distribute
+them via Dropbox, Google Drive or other file sharing services.
+<small class="error usagePolicy" style="display:none">Please confirm that you accept the terms of use.</small>
+</label>
+</div>
+</div>
+<input type="hidden" name="suppressTrackingEvent" value="false"/>
+<input type="hidden" name="service" value="kindle"/>
+<input type="hidden" name="documents" value="1E7B5165954C1B9B303E412933E28029"/>
+<input type="hidden" name="finalReturn" value="/core/journals/ai-edam/article/virtual-design-team-modeling-organizational-behavior-of-concurrent-design-teams/1E7B5165954C1B9B303E412933E28029"/>
+<input type="hidden" name="_csrf" value="llbpWNNQ-ktonUkHPLq9e8Dswj21laujdt4o">
+</form>
+ 
+<div class="row margin-top">
+<div class="small-6 large-6 columns">
+<button href="#" class="button radius transparent right closeModal">Cancel</button>
+</div>
+<div class="small-6 large-6 columns">
+<button type="submit" onClick="$('#sendTokindleForm').submit();" class="button blue radius left">
+Send
+</button>
+</div>
+</div>
+ 
+</div>
+</div>
+</div>
+</div>
+<a class="close-reveal-modal">×</a>
+</div>
+<script type="text/javascript">
+                                                                            $('#sendTokindleForm').on('submit', validatekindleForm);
+                                                                          
+                                                                            var _formkindle = $('#sendTokindleForm');
+                                                                          
+                                                                            function resetValidationkindleForm() {
+                                                                              var _form = _formkindle;
+                                                                              _form.find('.error.formats').hide();
+                                                                              _form.find('.error.usagePolicy').hide();
+                                                                            }
+                                                                          
+                                                                            function validatekindleFormats(e) {
+                                                                              var _form = _formkindle;
+                                                                              var errors = false;
+                                                                              var formats = _form.find('input[name="formats"]:checked');
+                                                                              if (formats.length < 1) {
+                                                                                _form.find('.error.formats').show();
+                                                                                errors = true;
+                                                                              } else {
+                                                                                _form.find('.error.formats').hide();
+                                                                              }
+                                                                              return errors;
+                                                                            }
+                                                                          
+                                                                            function validatekindleUsagePolicy(e) {
+                                                                              var _form = _formkindle;
+                                                                              var usagePolicy = _form.find('input[name="usagePolicykindle"]');
+                                                                              var errors = false;
+                                                                              if (!usagePolicy.is(':checked')) {
+                                                                                _form.find('.error.usagePolicy').show();
+                                                                                errors = true;
+                                                                              } else {
+                                                                                _form.find('.error.usagePolicy').hide();
+                                                                              }
+                                                                              return errors;
+                                                                            }
+                                                                          
+                                                                            function validateKindleEmail(e) {
+                                                                              var _form = _formkindle;
+                                                                              var kindleEmailAddress = _form.find('input[name="kindleEmailAddress"]');
+                                                                              var errors = false;
+                                                                          
+                                                                              if (!kindleEmailAddress.val().trim()) {
+                                                                                _form.find('.error.kindleEmailAddress').show();
+                                                                                kindleEmailAddress.addClass('error');
+                                                                                errors = true;
+                                                                              } else {
+                                                                                _form.find('.error.kindleEmailAddress').hide();
+                                                                                kindleEmailAddress.removeClass('error');
+                                                                              }
+                                                                              return errors;
+                                                                            }
+                                                                          
+                                                                          
+                                                                            function validatekindleForm(e) {
+                                                                              var _form = _formkindle;
+                                                                              var resultPolicy = validatekindleUsagePolicy();
+                                                                              var resultFormats = validatekindleFormats();
+                                                                          
+                                                                              if (resultPolicy) {
+                                                                                $('#usagePolicykindle', _form).one('change', validatekindleUsagePolicy);
+                                                                              }
+                                                                              if (resultFormats) {
+                                                                                $('.formats', _form).one('change', validatekindleFormats);
+                                                                              }
+                                                                          
+                                                                              var resultKindleEmail = validateKindleEmail(e);
+                                                                              if (resultKindleEmail) {
+                                                                                $('input[name="kindleEmailAddress"]', _form).one('change', validateKindleEmail);
+                                                                              }
+                                                                          
+                                                                              return !resultPolicy && !resultFormats  && !resultKindleEmail;
+                                                                            }
+                                                                          
+                                                                          
+                                                                            $(document).ready(function () {
+                                                                              // reset validation when the modal opens
+                                                                              $(document).on('open.fndtn.reveal', '[data-reveal]', function () {
+                                                                                resetValidationkindleForm();
+                                                                          
+                                                                                // automatically select if there's only one format
+                                                                                if ($('#sendTokindleForm input[name="formats"]').length === 1) {
+                                                                                  $('#sendTokindleForm input[name="formats"]').prop('checked', true);
+                                                                                }
+                                                                              });
+                                                                            });
+                                                                          
+                                                                          </script>
+<div id="dropboxModal" class="reveal-modal large" data-reveal>
+<div class="header">
+<div class="heading_07">Send article to Dropbox</div>
+</div>
+<div class="panel">
+<div class="row">
+<div class="large-12 columns margin-bottom">
+<p>
+To send this article to your Dropbox account, please
+select one or more formats and confirm that you agree to abide by our usage policies.
+If this is the first time you use this feature, you will be asked to authorise
+Cambridge Core to connect with your Dropbox account.
+<a href="/core/help">Find out more about sending content to Dropbox</a>.
+</p>
+</div>
+</div>
+<div class="row book-title">
+<div class="small-12 columns">
+<div class="heading_08"><div class="title">The Virtual Design Team: Modeling organizational behavior of concurrent design teams</div></div>
+</div>
+</div>
+<div class="row book-details book-overview">
+<div class="small-12 columns">
+<ul>
+<li class="volume-issue">Volume 9, <a href="/core/journals/ai-edam/issue/D14F2A0A1EC4E8656F7308D7AB404BFD">Issue 2</a></li>
+<li class="author">
+<a href="/core/search?filters%5BauthorTerms%5D=Yan Jin&eventCode=SE-AU" class="more-by-this-author ">Yan Jin</a> <sup data-affiliation-id="a1" class="">(a1)</sup><span class="separator ">, </span><a href="/core/search?filters%5BauthorTerms%5D=Raymond E. Levitt&eventCode=SE-AU" class="more-by-this-author ">Raymond E. Levitt</a> <sup data-affiliation-id="a1" class="">(a1)</sup><span class="separator ">, </span><a href="/core/search?filters%5BauthorTerms%5D=Tore R. Christiansen&eventCode=SE-AU" class="more-by-this-author ">Tore R. Christiansen</a> <sup data-affiliation-id="a2" class="">(a2)</sup><span class="separator "> and </span><a href="/core/search?filters%5BauthorTerms%5D=John C. Kunz&eventCode=SE-AU" class="more-by-this-author ">John C. Kunz</a> <sup data-affiliation-id="a1" class="">(a1)</sup>
+</li>
+<li class="meta-info">DOI: <a href="https://doi.org/10.1017/S0890060400002183" target="_blank" class="url">https://doi.org/10.1017/S0890060400002183</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="row wrapper no-padding-top">
+<div class="small-12 columns">
+<div class="row margin-top">
+<div class="large-12 columns">
+<form id="sendTodropboxForm" action="/core/services/aop-cambridge-core/sendto" method="GET">
+<div class="row">
+<div class="large-12 columns">
+<fieldset>
+<legend>Available formats</legend>
+<label>
+<input type="checkbox" name="formats" class="formats" value="pdf" required /> PDF
+</label>
+<small class="error formats" style="display:none">Please select a format to send.</small>
+</fieldset>
+</div>
+</div>
+<div class="row">
+<div class="large-12 columns">
+<label for="usagePolicydropbox">
+<input type="checkbox" name="usagePolicydropbox" id="usagePolicydropbox" value="Usage" required />
+By using this service, you agree that you will only keep articles for personal use, and will not openly distribute
+them via Dropbox, Google Drive or other file sharing services.
+<small class="error usagePolicy" style="display:none">Please confirm that you accept the terms of use.</small>
+</label>
+</div>
+</div>
+<input type="hidden" name="suppressTrackingEvent" value="false"/>
+<input type="hidden" name="service" value="dropbox"/>
+<input type="hidden" name="documents" value="1E7B5165954C1B9B303E412933E28029"/>
+<input type="hidden" name="finalReturn" value="/core/journals/ai-edam/article/virtual-design-team-modeling-organizational-behavior-of-concurrent-design-teams/1E7B5165954C1B9B303E412933E28029"/>
+<input type="hidden" name="_csrf" value="llbpWNNQ-ktonUkHPLq9e8Dswj21laujdt4o">
+</form>
+ 
+<div class="row margin-top">
+<div class="small-6 large-6 columns">
+<button href="#" class="button radius transparent right closeModal">Cancel</button>
+</div>
+<div class="small-6 large-6 columns">
+<button type="submit" onClick="$('#sendTodropboxForm').submit();" class="button blue radius left">
+Send
+</button>
+</div>
+</div>
+ 
+</div>
+</div>
+</div>
+</div>
+<a class="close-reveal-modal">×</a>
+</div>
+<script type="text/javascript">
+                                                                            $('#sendTodropboxForm').on('submit', validatedropboxForm);
+                                                                          
+                                                                            var _formdropbox = $('#sendTodropboxForm');
+                                                                          
+                                                                            function resetValidationdropboxForm() {
+                                                                              var _form = _formdropbox;
+                                                                              _form.find('.error.formats').hide();
+                                                                              _form.find('.error.usagePolicy').hide();
+                                                                            }
+                                                                          
+                                                                            function validatedropboxFormats(e) {
+                                                                              var _form = _formdropbox;
+                                                                              var errors = false;
+                                                                              var formats = _form.find('input[name="formats"]:checked');
+                                                                              if (formats.length < 1) {
+                                                                                _form.find('.error.formats').show();
+                                                                                errors = true;
+                                                                              } else {
+                                                                                _form.find('.error.formats').hide();
+                                                                              }
+                                                                              return errors;
+                                                                            }
+                                                                          
+                                                                            function validatedropboxUsagePolicy(e) {
+                                                                              var _form = _formdropbox;
+                                                                              var usagePolicy = _form.find('input[name="usagePolicydropbox"]');
+                                                                              var errors = false;
+                                                                              if (!usagePolicy.is(':checked')) {
+                                                                                _form.find('.error.usagePolicy').show();
+                                                                                errors = true;
+                                                                              } else {
+                                                                                _form.find('.error.usagePolicy').hide();
+                                                                              }
+                                                                              return errors;
+                                                                            }
+                                                                          
+                                                                          
+                                                                          
+                                                                            function validatedropboxForm(e) {
+                                                                              var _form = _formdropbox;
+                                                                              var resultPolicy = validatedropboxUsagePolicy();
+                                                                              var resultFormats = validatedropboxFormats();
+                                                                          
+                                                                              if (resultPolicy) {
+                                                                                $('#usagePolicydropbox', _form).one('change', validatedropboxUsagePolicy);
+                                                                              }
+                                                                              if (resultFormats) {
+                                                                                $('.formats', _form).one('change', validatedropboxFormats);
+                                                                              }
+                                                                          
+                                                                          
+                                                                              return !resultPolicy && !resultFormats ;
+                                                                            }
+                                                                          
+                                                                          
+                                                                            $(document).ready(function () {
+                                                                              // reset validation when the modal opens
+                                                                              $(document).on('open.fndtn.reveal', '[data-reveal]', function () {
+                                                                                resetValidationdropboxForm();
+                                                                          
+                                                                                // automatically select if there's only one format
+                                                                                if ($('#sendTodropboxForm input[name="formats"]').length === 1) {
+                                                                                  $('#sendTodropboxForm input[name="formats"]').prop('checked', true);
+                                                                                }
+                                                                              });
+                                                                            });
+                                                                          
+                                                                          </script>
+<div id="googleDriveModal" class="reveal-modal large" data-reveal>
+<div class="header">
+<div class="heading_07">Send article to Google Drive</div>
+</div>
+<div class="panel">
+<div class="row">
+<div class="large-12 columns margin-bottom">
+<p>
+To send this article to your Google Drive account, please
+select one or more formats and confirm that you agree to abide by our usage policies.
+If this is the first time you use this feature, you will be asked to authorise
+Cambridge Core to connect with your Google Drive account.
+<a href="/core/help">Find out more about sending content to Google Drive</a>.
+</p>
+</div>
+</div>
+<div class="row book-title">
+<div class="small-12 columns">
+<div class="heading_08"><div class="title">The Virtual Design Team: Modeling organizational behavior of concurrent design teams</div></div>
+</div>
+</div>
+<div class="row book-details book-overview">
+<div class="small-12 columns">
+<ul>
+<li class="volume-issue">Volume 9, <a href="/core/journals/ai-edam/issue/D14F2A0A1EC4E8656F7308D7AB404BFD">Issue 2</a></li>
+<li class="author">
+<a href="/core/search?filters%5BauthorTerms%5D=Yan Jin&eventCode=SE-AU" class="more-by-this-author ">Yan Jin</a> <sup data-affiliation-id="a1" class="">(a1)</sup><span class="separator ">, </span><a href="/core/search?filters%5BauthorTerms%5D=Raymond E. Levitt&eventCode=SE-AU" class="more-by-this-author ">Raymond E. Levitt</a> <sup data-affiliation-id="a1" class="">(a1)</sup><span class="separator ">, </span><a href="/core/search?filters%5BauthorTerms%5D=Tore R. Christiansen&eventCode=SE-AU" class="more-by-this-author ">Tore R. Christiansen</a> <sup data-affiliation-id="a2" class="">(a2)</sup><span class="separator "> and </span><a href="/core/search?filters%5BauthorTerms%5D=John C. Kunz&eventCode=SE-AU" class="more-by-this-author ">John C. Kunz</a> <sup data-affiliation-id="a1" class="">(a1)</sup>
+</li>
+<li class="meta-info">DOI: <a href="https://doi.org/10.1017/S0890060400002183" target="_blank" class="url">https://doi.org/10.1017/S0890060400002183</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="row wrapper no-padding-top">
+<div class="small-12 columns">
+<div class="row margin-top">
+<div class="large-12 columns">
+<form id="sendTogoogleDriveForm" action="/core/services/aop-cambridge-core/sendto" method="GET">
+<div class="row">
+<div class="large-12 columns">
+<fieldset>
+<legend>Available formats</legend>
+<label>
+<input type="checkbox" name="formats" class="formats" value="pdf" required /> PDF
+</label>
+<small class="error formats" style="display:none">Please select a format to send.</small>
+</fieldset>
+</div>
+</div>
+<div class="row">
+<div class="large-12 columns">
+<label for="usagePolicygoogleDrive">
+<input type="checkbox" name="usagePolicygoogleDrive" id="usagePolicygoogleDrive" value="Usage" required />
+By using this service, you agree that you will only keep articles for personal use, and will not openly distribute
+them via Dropbox, Google Drive or other file sharing services.
+<small class="error usagePolicy" style="display:none">Please confirm that you accept the terms of use.</small>
+</label>
+</div>
+</div>
+<input type="hidden" name="suppressTrackingEvent" value="false"/>
+<input type="hidden" name="service" value="googleDrive"/>
+<input type="hidden" name="documents" value="1E7B5165954C1B9B303E412933E28029"/>
+<input type="hidden" name="finalReturn" value="/core/journals/ai-edam/article/virtual-design-team-modeling-organizational-behavior-of-concurrent-design-teams/1E7B5165954C1B9B303E412933E28029"/>
+<input type="hidden" name="_csrf" value="llbpWNNQ-ktonUkHPLq9e8Dswj21laujdt4o">
+</form>
+ 
+<div class="row margin-top">
+<div class="small-6 large-6 columns">
+<button href="#" class="button radius transparent right closeModal">Cancel</button>
+</div>
+<div class="small-6 large-6 columns">
+<button type="submit" onClick="$('#sendTogoogleDriveForm').submit();" class="button blue radius left">
+Send
+</button>
+</div>
+</div>
+ 
+</div>
+</div>
+</div>
+</div>
+<a class="close-reveal-modal">×</a>
+</div>
+<script type="text/javascript">
+                                                                            $('#sendTogoogleDriveForm').on('submit', validategoogleDriveForm);
+                                                                          
+                                                                            var _formgoogleDrive = $('#sendTogoogleDriveForm');
+                                                                          
+                                                                            function resetValidationgoogleDriveForm() {
+                                                                              var _form = _formgoogleDrive;
+                                                                              _form.find('.error.formats').hide();
+                                                                              _form.find('.error.usagePolicy').hide();
+                                                                            }
+                                                                          
+                                                                            function validategoogleDriveFormats(e) {
+                                                                              var _form = _formgoogleDrive;
+                                                                              var errors = false;
+                                                                              var formats = _form.find('input[name="formats"]:checked');
+                                                                              if (formats.length < 1) {
+                                                                                _form.find('.error.formats').show();
+                                                                                errors = true;
+                                                                              } else {
+                                                                                _form.find('.error.formats').hide();
+                                                                              }
+                                                                              return errors;
+                                                                            }
+                                                                          
+                                                                            function validategoogleDriveUsagePolicy(e) {
+                                                                              var _form = _formgoogleDrive;
+                                                                              var usagePolicy = _form.find('input[name="usagePolicygoogleDrive"]');
+                                                                              var errors = false;
+                                                                              if (!usagePolicy.is(':checked')) {
+                                                                                _form.find('.error.usagePolicy').show();
+                                                                                errors = true;
+                                                                              } else {
+                                                                                _form.find('.error.usagePolicy').hide();
+                                                                              }
+                                                                              return errors;
+                                                                            }
+                                                                          
+                                                                          
+                                                                          
+                                                                            function validategoogleDriveForm(e) {
+                                                                              var _form = _formgoogleDrive;
+                                                                              var resultPolicy = validategoogleDriveUsagePolicy();
+                                                                              var resultFormats = validategoogleDriveFormats();
+                                                                          
+                                                                              if (resultPolicy) {
+                                                                                $('#usagePolicygoogleDrive', _form).one('change', validategoogleDriveUsagePolicy);
+                                                                              }
+                                                                              if (resultFormats) {
+                                                                                $('.formats', _form).one('change', validategoogleDriveFormats);
+                                                                              }
+                                                                          
+                                                                          
+                                                                              return !resultPolicy && !resultFormats ;
+                                                                            }
+                                                                          
+                                                                          
+                                                                            $(document).ready(function () {
+                                                                              // reset validation when the modal opens
+                                                                              $(document).on('open.fndtn.reveal', '[data-reveal]', function () {
+                                                                                resetValidationgoogleDriveForm();
+                                                                          
+                                                                                // automatically select if there's only one format
+                                                                                if ($('#sendTogoogleDriveForm input[name="formats"]').length === 1) {
+                                                                                  $('#sendTogoogleDriveForm input[name="formats"]').prop('checked', true);
+                                                                                }
+                                                                              });
+                                                                            });
+                                                                          
+                                                                          </script>
+</ul>
+</li>
+</ul>
+<ul class="other-actions col-1">
+<a class="button small radius blue export-citation-product" data-prod-id="1E7B5165954C1B9B303E412933E28029">Export citation</a>
+<a href="https://s100.copyright.com/AppDispatchServlet?publisherName=CUP&amp;publication=AIE&amp;title=The%20Virtual%20Design%20Team:%20Modeling%20organizational%20behavior%20of%20concurrent%20design%20teams&amp;publicationDate=2009-2-1&amp;author=Yan%20Jin,%20Raymond%20E.%20Levitt,%20Tore%20R.%20Christiansen,%20John%20C.%20Kunz&amp;copyright=COPYRIGHT:%20%C2%A9%20Cambridge%20University%20Press%201995&amp;contentID=10.1017/S0890060400002183&amp;startPage=145&amp;endPage=158&amp;orderBeanReset=True&amp;volumeNum=9&amp;issueNum=2" target="_blank" class="button small transparent radius">Request permission</a>
+</ul>
+<ul class="other-actions col-2">
+</ul>
+</div>
+</div>
+<div class="divider"> </div>
+</div>
+<div class="overview article-overview">
+<div id="author" class="summary-title">Copyright</div>
+<div class="description">
+<div class="copyright">COPYRIGHT: © Cambridge University Press 1995</div>
+</div>
+</div>
+<div class="divider"> </div>
+<div class="overview article-overview">
+<div class="summary-title summary-title-reveal">Linked references</div>
+<dl class="accordion accordian-article" data-accordion>
+<dd class="accordion-navigation active">
+<a href="#references" class="right">
+<div class="icon open-drawer small">
+<span class="toggle-text">Hide</span>
+<span class="excerpt-type">All</span>
+</div>
+</a>
+<p class="paragraph_03">This list contains references from the content that can be linked to their source. For a full set of references and notes please see the PDF or HTML where available.</p>
+<div id="references" class="description content active">
+ 
+<div class="reference-display">
+<div class="cit-citation simple journal" data-magellan-destination="ref001" id="ref001"><span class="cit-name"> <span class="cit-given-names">T.</span> <span class="cit-surname">Adachi</span> </span>, <span class="cit-name"> <span class="cit-given-names">L.C.</span> <span class="cit-surname">Shih</span> </span>, &amp; <span class="cit-name"> <span class="cit-given-names">T.</span> <span class="cit-surname">Enkawa</span> </span> (<span class="cit-year">1994</span>). <span class="cit-article-title">Strategy for supporting organization and structuring of development teams in concurrent engineering</span>. <span class="cit-source">Int. J. Human Factors Manuf</span>. <span class="cit-volume">4</span>(<span class="cit-issue">2</span>), <span class="cit-fpage">101</span>–<span class="cit-lpage">120</span>.</div>
+</div>
+<ul class="reference-list">
+<li><a href="https://doi.org/10.1002/hfm.4530040202" target="_blank">CrossRef</a></li>
+<li><a href="https://scholar.google.com/scholar_lookup?title=Strategy+for+supporting+organization+and+structuring+of+development+teams+in+concurrent+engineering&amp;author=Adachi+Toshiyuki+Shih+Li+Chung+Enkawa+Takao&amp;publication_year=1994" target="_blank">Google Scholar</a></li>
+</ul>
+<hr/>
+ 
+<div class="reference-display">
+<div class="cit-citation simple journal" data-magellan-destination="ref005" id="ref005"><span class="cit-name"> <span class="cit-given-names">M.D.</span> <span class="cit-surname">Cohen</span> </span>, <span class="cit-name"> <span class="cit-given-names">J.G.</span> <span class="cit-surname">March</span> </span>, &amp; <span class="cit-name"> <span class="cit-given-names">J.P.</span> <span class="cit-surname">Olsen</span> </span> (<span class="cit-year">1972</span>). <span class="cit-article-title">A Garbage Can Model of organizational choice</span>. <span class="cit-source">Administrative Sci. Quart</span>. <span class="cit-volume">17</span>(<span class="cit-issue">1</span>), <span class="cit-fpage">1</span>–<span class="cit-lpage">25</span>.</div>
+</div>
+<ul class="reference-list">
+<li><a href="https://doi.org/10.2307/2392088" target="_blank">CrossRef</a></li>
+<li><a href="https://scholar.google.com/scholar_lookup?title=A+Garbage+Can+Model+of+Organizational+Choice&amp;author=Cohen+Michael+D.+March+James+G.+Olsen+Johan+P.&amp;publication_year=1972" target="_blank">Google Scholar</a></li>
+</ul>
+<hr/>
+ 
+<div class="reference-display">
+<div class="cit-citation simple journal" data-magellan-destination="ref013" id="ref013"><span class="cit-name"> <span class="cit-given-names">Y.</span> <span class="cit-surname">Jin</span> </span>, &amp; <span class="cit-name"> <span class="cit-given-names">R.E.</span> <span class="cit-surname">Levitt</span> </span> (<span class="cit-year">1993</span>). <span class="cit-article-title">i-AGENTS: Modeling organizational problem solving in multiagent teams</span>. <span class="cit-source">Int. J. Intel. Sys. Accoun. Fin. Mgmt</span>. <span class="cit-volume">2</span>(<span class="cit-issue">4</span>), <span class="cit-fpage">247</span>–<span class="cit-lpage">270</span>.</div>
+</div>
+<ul class="reference-list">
+<li><a href="https://doi.org/10.1002/j.1099-1174.1993.tb00046.x" target="_blank">CrossRef</a></li>
+<li><a href="https://scholar.google.com/scholar_lookup?title=i-AGENTS:+Modeling+Organizational+Problem+Solving+in+Multi-Agent+Teams&amp;author=Jin+Yan+Levitt+Raymond+E.&amp;publication_year=1993" target="_blank">Google Scholar</a></li>
+</ul>
+<hr/>
+ 
+<div class="reference-display">
+<div class="cit-citation simple book" data-magellan-destination="ref014" id="ref014"><span class="cit-name"> <span class="cit-given-names">H.M.</span> <span class="cit-surname">Karandikar</span> </span>, <span class="cit-name"> <span class="cit-given-names">M.E.</span> <span class="cit-surname">Fotta</span> </span>, <span class="cit-name"> <span class="cit-given-names">M.</span> <span class="cit-surname">Lawson</span> </span>, &amp; <span class="cit-name"> <span class="cit-given-names">R.T.</span> <span class="cit-surname">Wood</span> </span> (<span class="cit-year">1993</span>). Assessing organizational readiness for implementing concurrent engineering practices and collaborative technologies. <span class="cit-source">Proc. Second Workshop on Enabling Technologies Infrastructure for Collaborative Enterprise</span>, pp. <span class="cit-fpage">83</span>–<span class="cit-lpage">93</span>. <span class="cit-publisher-name">IEEE Comput. Soc. Press</span>, <span class="cit-publisher-loc">New York</span>.</div>
+</div>
+<ul class="reference-list">
+<li><a href="https://doi.org/10.1109/ENABL.1993.263060" target="_blank">CrossRef</a></li>
+<li><a href="https://scholar.google.com/scholar_lookup?title=Assessing+organizational+readiness+for+implementing+concurrent+engineering+practices+and+collaborative+technologies&amp;author=Karandikar+H.M.+Fotta+M.E.+Lawson+M.+Wood+R.T.&amp;publication_year=1993" target="_blank">Google Scholar</a></li>
+</ul>
+<hr/>
+ 
+<div class="reference-display">
+<div class="cit-citation simple journal" data-magellan-destination="ref018" id="ref018"><span class="cit-name"> <span class="cit-given-names">M.</span> <span class="cit-surname">Masuch</span> </span>, &amp; <span class="cit-name"> <span class="cit-given-names">P.</span> <span class="cit-surname">LaPotin</span> </span> (<span class="cit-year">1989</span>). <span class="cit-article-title">Beyond Garbage Cans: An AI model of organizational choice</span>. <span class="cit-source">Admin. Sci. Quart</span>. <span class="cit-volume">34</span>, <span class="cit-fpage">38</span>–<span class="cit-lpage">67</span>.</div>
+</div>
+<ul class="reference-list">
+<li><a href="https://doi.org/10.2307/2392985" target="_blank">CrossRef</a></li>
+<li><a href="https://scholar.google.com/scholar_lookup?title=Beyond+Garbage+Cans:+An+Al+Model+of+Organizational+Choice&amp;author=Masuch+Michael+LaPotin+Perry&amp;publication_year=1989" target="_blank">Google Scholar</a></li>
+</ul>
+<hr/>
+</div>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+</div>
+<div id="recommendProduct" class="reveal-modal large" data-reveal>
+<div id="type-display">
+<div class="header">
+<div class="heading_07">Recommend this journal</div>
+<p>Email your librarian or administrator to recommend adding this journal to your organisation's collection.</p>
+</div>
+<div class="row book-title">
+<div class="small-12 columns">
+<div class="heading_08">AI EDAM</div>
+</div>
+</div>
+<div class="row book-details book-overview">
+<div class="small-12 columns">
+<ul>
+<li class="meta-info issn">ISSN: 0890-0604<li>
+<li class="meta-info eissn">EISSN: 1469-1760<li>
+<li class="meta-info url">URL: /core/journals/ai-edam<li>
+</ul>
+</div>
+</div>
+</div>
+<div class="row wrapper no-padding-top">
+<div class="small-12 columns">
+<div class="flash-message-container">
+<div class="flash-message">
+<div id="ajaxMessages" class="ajaxMessages"></div>
+</div>
+</div>
+<div class="row margin-top">
+<div class="large-12 columns">
+<form id="recommend" action="/core/services/aop-cambridge-core/recommend/send" method="post" data-abide="ajax">
+<input type="hidden" name="_csrf" value="llbpWNNQ-ktonUkHPLq9e8Dswj21laujdt4o">
+<div id="inputs">
+<input type="hidden" name="productType" value="journal">
+<input type="hidden" name="productLink" value="">
+<input type="hidden" name="productID" value="46E50286DF9E9F8A8D580AE2272FAE40">
+<input type="hidden" name="productTitle" value="AI EDAM">
+<input type="hidden" name="productIssn" value="08900604">
+<input type="hidden" name="productEissn" value="14691760">
+</div>
+<input type="hidden" name="yourNamePrefill" value="">
+<input type="hidden" name="yourEmailPrefill" value="">
+<div class="row">
+<div class="large-6 medium-12 small-12 columns">
+<div class="row">
+<div class="small-12 columns">
+<label>
+Your name *
+<input name="yourName" id="yourName" type="text" required="required" maxlength="100" placeholder="Enter your name"/>
+</label>
+<small class="error">Please enter your name</small>
+</div>
+</div>
+</div>
+<div class="large-6 medium-12 small-12 columns">
+<div class="row">
+<div class="small-12 columns">
+<label>
+Your email address *
+<input name="yourEmail" id="yourEmail" type="text" required="required" pattern="email" maxlength="100" placeholder="Enter your email address"/>
+</label>
+<small class="error">Please enter a valid email address</small>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="small-12 large-12 columns">
+<fieldset>
+<legend>Who would you like to send this to? *</legend>
+<div class="row">
+<div class="small-12 large-6 columns">
+<label class="organisation-option">Select organisation <span data-dropdown="selectOrganisationInfo" aria-controls="selectOrganisationInfo" aria-expanded="false" class="icon info tooltip-icon"></span></label><div id="selectOrganisationInfo" data-dropdown-content class="f-dropdown content medium" aria-hidden="true" tabindex="-1"><p class="text-left">A recommendation email will be sent to the administrator(s) of the selected organisation.</p></div>
+<div class="yourOrganisations margin-top margin-left no-margin-left-for-small no-margin-left-for-medium">
+<ul>
+<li>
+<label>
+<input type="checkbox" name="yourOrganisations" value="8a9402095413b9bc015413e2bdc91336">Carnegie Mellon University
+</label>
+</li>
+</ul>
+</div>
+</div>
+<div class="small-12 large-6 columns no-padding-left margin-top-for-medium no-margin-top">
+<div id="administrator-email" class="small-12 columns">
+<label class="organisation-option" for="administratorEmail"><span>Or enter your administrator's email <span data-dropdown="administratorEmailInfo" aria-controls="administratorEmailInfo" aria-expanded="false" class="icon info tooltip-icon"></span></span><div id="administratorEmailInfo" data-dropdown-content class="f-dropdown content medium" aria-hidden="true" tabindex="-1"><p class="text-left">You can enter one or more administrator email addresses.</p></div></label>
+<div class="row collapse postfix-radius">
+<div class="large-10 small-10 columns">
+<input type="hidden" id="selected-values" name="selectedAdministratorEmails" value=""/>
+<input id="administratorEmail" name="administratorEmail" type="text" placeholder="Enter an email address" autocomplete="off"/>
+<span id="emailaddress-invalid" class="error" style="display:none">Please enter a valid email address</span>
+<span id="emailaddress-added" class="error" style="display:none">Email already added</span>
+</div>
+<div class="large-2 small-2 columns">
+<input type="submit" value="Add" id="add-administrator" class="button radius postfix" aria-label="Add administrator email">
+</div>
+</div>
+<div class="row">
+<div class="small-12 large-12 columns">
+<div id="selected-administrator-emails" class="margin-top" style="display:none"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</fieldset>
+</div>
+</div>
+<div class="row">
+<div class="small-12 medium-6 columns">
+<div class="small-12 medium-12 large-6 columns">
+<label>Optional message
+<textarea name="message" id="message" rows="3" maxlength="250" placeholder="Enter a message for your libarian or administrator"></textarea>
+</label>
+</div>
+</div>
+<div class="small-12 medium-6 columns">
+<link rel="stylesheet" href="/core/captcha/public/bower_components/visualcaptcha.jquery/visualcaptcha.src.css"/>
+<link rel="stylesheet" href="/core/captcha/public/captcha.css"/>
+<div class="wrap">
+<div class="pre-captcha-wrapper">
+<div class="captcha-wrapper">
+<h2>CAPTCHA *</h2>
+<a id="captcha-skip-to-audio" href="#captcha-audio-challenge" aria-hidden="false">Skip to the audio challenge</a>
+<div id="sample-captcha"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</form>
+<div class="row margin-top">
+<div class="small-6 large-6 columns">
+<button href="#" onclick="$('[id=recommendProduct]').foundation('reveal', 'close');return false;" class="button radius transparent right">Cancel</button>
+</div>
+<div class="small-6 large-6 columns">
+<button type="submit" onclick="$('form#recommend').submit();" id="recommend-submit" class="button blue radius left">Send</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<a class="close-reveal-modal">×</a>
+</div>
+<script>
+                                  $('.icon.toggle.close').on('click', function () {
+                                      $('.article-meta').toggleClass('reading-width');
+                                  });
+                              </script>
+</div>
+<div class="panel large-3 small-12 narrow-column article-page chapter right">
+<div class="actions article">
+<div class="header">
+<div class="header left">
+<div class="left title-underline">
+<h3>Keywords:</h3>
+<div class="border"></div>
+</div>
+</div>
+</div>
+<ul class="button-group inline clearfix">
+<li>
+<a href="/core/search?filters[keywords]=concurrent%20design" class="button small radius grey">Concurrent Design</a></li>
+<li>
+<a href="/core/search?filters[keywords]=coordination" class="button small radius grey">Coordination</a></li>
+<li>
+<a href="/core/search?filters[keywords]=organization%20design" class="button small radius grey">Organization Design</a></li>
+<li>
+<a href="/core/search?filters[keywords]=simulation" class="button small radius grey">Simulation</a></li>
+</ul>
+<div class="clearfix explore-all padding-top right" data-limit="15">
+</div>
+</div>
+<script>
+                                  $(document).ready(function () {
+                                    $('texmath, .tex-math, .mathJaxTex').hide();
+                                  });
+                                </script>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+<div class="content" id="contents">
+</div>
+<div class="content" id="references">
+</div>
+<div class="content" id="metrics">
+<script type="text/javascript">
+            $(document).ready(function () {
+          
+              var fullTextViews = {
+                total: '6',
+                data: [],
+                containerId: 'article-months-chart-fulltext-views'
+              };
+                fullTextViews.data.push([
+                  {v: 'Sep 2016'},
+                  0
+                ]);
+                fullTextViews.data.push([
+                  {v: 'Oct 2016'},
+                  0
+                ]);
+                fullTextViews.data.push([
+                  {v: 'Nov 2016'},
+                  0
+                ]);
+                fullTextViews.data.push([
+                  {v: 'Dec 2016'},
+                  1
+                ]);
+                fullTextViews.data.push([
+                  {v: 'Jan 2017'},
+                  2
+                ]);
+                fullTextViews.data.push([
+                  {v: 'Feb 2017'},
+                  2
+                ]);
+                fullTextViews.data.push([
+                  {v: 'Mar 2017'},
+                  2
+                ]);
+                fullTextViews.data.push([
+                  {v: 'Apr 2017'},
+                  2
+                ]);
+                fullTextViews.data.push([
+                  {v: 'May 2017'},
+                  4
+                ]);
+                fullTextViews.data.push([
+                  {v: 'Jun 2017'},
+                  4
+                ]);
+                fullTextViews.data.push([
+                  {v: 'Jul 2017'},
+                  6
+                ]);
+          
+              var abstractViews = {
+                total: '121',
+                data: [],
+                containerId: 'article-months-chart-abstract-views'
+              };
+                abstractViews.data.push([
+                  {v: 'Sep 2016'},
+                  7
+                ]);
+                abstractViews.data.push([
+                  {v: 'Oct 2016'},
+                  31
+                ]);
+                abstractViews.data.push([
+                  {v: 'Nov 2016'},
+                  60
+                ]);
+                abstractViews.data.push([
+                  {v: 'Dec 2016'},
+                  74
+                ]);
+                abstractViews.data.push([
+                  {v: 'Jan 2017'},
+                  84
+                ]);
+                abstractViews.data.push([
+                  {v: 'Feb 2017'},
+                  85
+                ]);
+                abstractViews.data.push([
+                  {v: 'Mar 2017'},
+                  93
+                ]);
+                abstractViews.data.push([
+                  {v: 'Apr 2017'},
+                  101
+                ]);
+                abstractViews.data.push([
+                  {v: 'May 2017'},
+                  106
+                ]);
+                abstractViews.data.push([
+                  {v: 'Jun 2017'},
+                  112
+                ]);
+                abstractViews.data.push([
+                  {v: 'Jul 2017'},
+                  121
+                ]);
+          
+              var chartsToRender = [
+                {
+                  containerId: fullTextViews.containerId,
+                  chartType: 'LineChart',
+                  data: fullTextViews.data,
+                  total: fullTextViews.total,
+                  columns: [
+                    ['string', 'Month'],
+                    ['number', 'Full text views']
+                  ],
+                  chartOptions: {
+                    hAxis: {
+                      title: 'Months'
+                    },
+                    vAxis: {
+                      title: 'Cumulative views',
+                      format: 0
+                    },
+                    legend: 'none',
+                    lineWidth: 3,
+                    pointSize: 5
+                  }
+                },
+                {
+                  containerId: abstractViews.containerId,
+                  data: abstractViews.data,
+                  total: abstractViews.total,
+                  chartType: 'LineChart',
+                  columns: [
+                    ['string', 'Month'],
+                    ['number', 'Abstract views']
+                  ],
+                  chartOptions: {
+                    hAxis: {
+                      title: 'Months'
+                    },
+                    vAxis: {
+                      title: 'Cumulative views',
+                      format: 0
+                    },
+                    legend: 'none',
+                    lineWidth: 3,
+                    pointSize: 5
+                  }
+                }
+              ];
+          
+              AOP.metrics.init({
+                chartsToRender: chartsToRender,
+                limitSingleChartWidth: true
+              });
+          
+            });
+          
+          </script>
+<section class="row metrics">
+<div class="large-12 columns">
+<div class="split-panel opposite-cols">
+<div class="wrapper">
+<div class="panel small-12 column main-column">
+<div class="reading-width">
+<h2 class="heading_03">Metrics</h2>
+<div class="divider"></div>
+<div class="metrics-section full-text-views ">
+<h2 class="heading_06">Full text views<span> <span data-dropdown="full-text-view-info" aria-controls="full-text-view-info" aria-expanded="false" class="icon info tooltip-icon"></span></span><div id="full-text-view-info" data-dropdown-content class="f-dropdown content medium" aria-hidden="true" tabindex="-1"><p class="text-left">Full text views reflects the number of PDF downloads, PDFs sent to Google Drive, Dropbox and Kindle and HTML full text views.</p></div></h2>
+<div class="summary">
+<div>Total number of HTML views: <span>0</span></div>
+<div>Total number of PDF views: <span>6</span> *</div>
+</div>
+<div class="clear"></div>
+<div class="chart">
+<div class="loader">
+<div>
+<img src="/core/system/public/img/ajax_loader_gray_256.gif" alt=""><span>Loading metrics...</span>
+</div>
+</div>
+<div class="row">
+<div class="large-12 columns">
+<div id="article-months-chart-fulltext-views"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="divider"></div>
+<div class="metrics-section abstract-views ">
+<h2 class="heading_06">Abstract views<span> <span data-dropdown="abstract-view-info" aria-controls="abstract-view-info" aria-expanded="false" class="icon info tooltip-icon"></span></span><div id="abstract-view-info" data-dropdown-content class="f-dropdown content medium" aria-hidden="true" tabindex="-1"><p class="text-left">Abstract views reflect the number of visits to the article landing page.</p></div></h2>
+<div class="summary">
+<div>
+Total abstract views: <span>121</span> *
+</div>
+</div>
+<div class="clear"></div>
+<div class="chart">
+<div class="loader">
+<div>
+<img src="/core/system/public/img/ajax_loader_gray_256.gif" alt=""><span>Loading metrics...</span>
+</div>
+</div>
+<div class="row">
+<div class="large-12 columns">
+<div id="article-months-chart-abstract-views"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="margin-top"><p>* Views captured on Cambridge Core between September 2016 - 10th July 2017. This data will be updated every 24 hours.</p></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+<div class="content" id="errata">
+<section class="row">
+<div class="large-12 columns">
+<div class="split-panel opposite-cols">
+<div class="wrapper">
+<div class="panel small-12 column main-column">
+<div class="reading-width">
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+</div>
+<script>
+          $(document).ready(function () {
+              AOP.loadScript('//s7.addthis.com/js/300/addthis_widget.js#async=1', function () {
+                  var addthis_config = addthis_config || {};
+                  var addthis_share = addthis_share || {};
+                  addthis_config.pubid = 'ra-554b7ca6217c131b';
+                  addthis_config.ui_click = true;
+
+
+                  // Initialise the addthis service
+                  addthis.init();
+                  // Apply config & share options to any share button on screen.
+                  addthis.button('.share', addthis_config, addthis_share);
+              });
+          });
+      </script>
+<footer>
+<div class="top menu centered">
+<div id="services" class="content">
+<ul class="tabs">
+<li class="tab-title"><a href="/core/services/librarians">Librarians</a></li>
+<li class="tab-title"><a href="/core/services/authors">Authors</a></li>
+<li class="tab-title"><a href="/core/services/publishing-partners">Publishing partners</a></li>
+<li class="tab-title"><a href="/core/services/agents">Agents</a></li>
+<li class="tab-title"><a href="/core/services/corporates">Corporates</a></li>
+</ul>
+</div>
+</div>
+<div class="mid">
+<div class="row">
+<ul class="accordion" data-accordion>
+<li class="accordion-navigation">
+<a href="#additional" class="accordion-expander">Additional Information<span class="icon tablet open-drawer"></span></a>
+<div id="additional" class="content">
+<div class="large-9 column menu">
+<ul class="sub-nav site-map margin-top">
+<li><a href="/core/accessibility">Accessibility</a></li>
+<li><a href="http://blog.journals.cambridge.org/" target="_blank">Our blog</a></li>
+<li><a href="/core/news">News</a></li>
+<li><a href="/core/contact">Contact us</a></li>
+<li><a href="/core/help/FAQs">Help</a></li>
+<li><a href="/core/legal-notices/terms">Cambridge Core legal notices</a></li>
+<li><a href="http://www.cambridge.org/about-us/feedback">Feedback</a></li>
+<li><a href="/core/sitemap">Sitemap</a></li>
+</ul>
+</div>
+<div class="large-3 column">
+<div class="social-container">
+<div class="title">Join us online</div>
+<ul class="social">
+<li><a href="https://www.facebook.com/CambridgeCore" target="_blank" class="icon fb"></a></li>
+<li><a href="https://twitter.com/CambridgeCore" target="_blank" class="icon tw"></a></li>
+<li><a href="https://plus.google.com/114953848908220702663/posts" target="_blank" class="icon gp"></a></li>
+<li><a href="https://www.youtube.com/user/CambridgeJournals" target="_blank" class="icon yt"></a></li>
+</ul>
+</div>
+</div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="bottom">
+<div class="row menu">
+<ul class="column accordion" data-accordion>
+<li class="accordion-navigation">
+<a href="#legal" class="accordion-expander">Legal Information<span class="icon tablet open-drawer"></span></a>
+<div id="legal" class="content">
+<ul class="title-area">
+<li class="logo">
+<div itemscope itemtype="http://schema.org/Organization">
+<a itemprop="url" href="http://www.cambridge.org">
+<img itemprop="logo" src="/core/cambridge-core/public/images/cambridge_logo.png" alt="Cambridge University Press">
+</a>
+</div>
+</li>
+</ul>
+<ul class="sub-nav">
+<li><a href="http://www.cambridge.org/about-us/rights-permissions/">Rights & Permissions</a></li>
+<li><a href="http://www.cambridge.org/about-us/legal-notices/copyright/">Copyright</a></li>
+<li><a href="http://www.cambridge.org/about-us/legal-notices/privacy-policy/">Privacy Policy</a></li>
+<li><a href="http://www.cambridge.org/about-us/legal-notices/terms-use">Terms of use</a></li>
+<li><a href="http://www.cambridge.org/about-us/legal-notices/cookies-policy/">Cookies Policy</a></li>
+<li class="copyright hide-for-medium hide-for-small">
+<a href="#">&#169; Cambridge University Press 2017</a>
+</li>
+<li class="back-to-top hide-for-large-up"><a href="#">Back to top</a></li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="mid hide-for-large-up">
+<div class="row">
+<ul class="tablet-footer-actions clearfix">
+<li class="copyright">
+<a href="#">&#169; Cambridge University Press 2017</a>
+</li>
+<li class="back-to-top right"><a href="#">Back to top</a></li>
+</ul>
+</div>
+</div>
+</footer>
+<script src="/core/cambridge-core/public/bower_components/foundation/js/foundation.js"></script>
+<script src="/core/cambridge-core/public/js/plugins/jquery.autocomplete.min.js"></script>
+<script src="/core/cambridge-core/public/js/plugins/slick.min.js"></script>
+<script src="/core/cambridge-core/public/js/plugins/jquery.qtip.min.js"></script>
+<script src="/core/cambridge-core/public/js/plugins/foggy.min.js"></script>
+<script src="/core/cambridge-core/public/js/plugins/jquery.cookie.js"></script>
+<script src="/core/cambridge-core/public/js/plugins/jquery.textresizer.min.js"></script>
+<script src="/core/cambridge-core/public/js/plugins/chosen.jquery.min.js"></script>
+<script src="/core/cambridge-core/public/js/plugins/jquery.sticky.js"></script>
+<script type="text/javascript">
+        var AOP = AOP || {};
+    </script>
+ 
+ 
+<script type="text/javascript" language="javascript">
+      window.AOP = window.AOP || {};
+      window.AOP.pageId = '';
+      window.AOP.baseUrl = '/core';
+      window.AOP.env = 'prod';
+      window.AOP.webTrendsFpcdom = '.www.cambridge.org';
+      window.AOP.webtrendsSourceId = 'dcs2229lnlwr3lqf1qfic2m50_4k5s';
+      window.AOP.shouldUseCitationTool = true;
+      ;
+    </script>
+<script src="/core/system/public/js/foundationUtils.js" language="javascript" type="text/javascript"></script>
+<script src="/core/system/public/js/confirmModal.js" language="javascript" type="text/javascript"></script>
+<script src="/core/system/public/js/trimWhitespace.js" language="javascript" type="text/javascript"></script>
+<script src="/core/system/public/js/loadScript.js" language="javascript" type="text/javascript"></script>
+<script src="/core/aop-shared-components/public/isArray.js"></script>
+<script src="/core/aop-shared-components/public/parseQuerystring.js"></script>
+<script src="/core/aop-shared-components/public/createAlertBox.js"></script>
+<script src="/core/aop-shared-components/public/webtrends.load.js"></script>
+<div id="confirmModalWrapper">
+<div id="confirm-modal" class="reveal-modal small" data-reveal>
+<div class="wrapper">
+<div class="title"></div>
+<div class="row">
+<div class="large-12 columns">
+<div class="panel callout message">
+</div>
+</div>
+</div>
+<div class="row margin-top">
+<div class="small-6 large-6 columns"><a class="right small button radius transparent cancel">Cancel</a></div>
+<div class="small-6 large-6 columns"><a href="#" class="left small radius button blue confirm">Confirm</a></div>
+</div>
+<a class="close-reveal-modal">&#215;</a>
+</div>
+</div>
+</div>
+ 
+<script src="/core/cambridge-core/public/js/ecommerce/add-to-basket.js" language="javascript"></script>
+<script src="/core/cambridge-core/public/js/validation.js" language="javascript"></script>
+<script src="/core/cambridge-core/public/js/selected-actions.js" language="javascript"></script>
+<script src="/core/easybib/public/js/app.js" language="javascript"></script>
+<script src="https://www.gstatic.com/charts/loader.js" language="javascript"></script>
+<script src="/core/cambridge-core/public/js/charts.js" language="javascript"></script>
+<script src="/core/cambridge-core/public/js/metrics.js" language="javascript"></script>
+<script src="/core/cambridge-core/public/js/recommend.js" language="javascript"></script>
+<script src="/core/captcha/public/bower_components/visualcaptcha.jquery/visualcaptcha.jquery.js" language="javascript"></script>
+<script src="/core/captcha/public/captcha.js" language="javascript"></script>
+<script src="/core/cambridge-core/public/js/bookmark.js" language="javascript"></script>
+<script src="/core/cambridge-core/public/js/journals/journals.js" language="javascript"></script>
+<script src="/core/system/public/js/validation.js" language="javascript" type="text/javascript"></script>
+ 
+<script src="/core/cambridge-core/public/js/jquery-extend.js"></script>
+<script src="/core/cambridge-core/public/js/additional.js"></script>
+<script type="text/javascript" src="//www.cambridge.org/packages/cambridge_themes/javascripts/global_navbar/v1.2.min.js"></script>
+<!--[if lt IE 9]>
+        <script src="/core/cambridge-core/public/js/plugins/rem.min.js"></script>
+    <![endif]-->
+<script src="/core/cambridge-core/public/js/app.js"></script>
+<script src="/core/cambridge-core/public/js/analytics/events.js"></script>
+<script src="/core/cambridge-core/public/js/analytics/listeners/counter.js"></script>
+<script language="javascript" type="text/javascript">
+        $(document).cupEvent();
+
+        AOP.initCounterReporter({
+            apiKey: 'qzD90fb0r257ZKVtGSFnG3UucyyMdgvu8u250Fa0',
+            apiUrl: 'https://usage.prod.aop.cambridge.org/v1/events',
+            applicationId: '8a94020952a738f80152b223c992000b',
+            identities: ["8a9402095413b9bc015413e2bdc91336"],
+            sessionId: 'l9t-XH-VFgHBCn-qn_XCcJSrwHux7Lih',
+            eventContext: '/core/journals/ai-edam/article/virtual-design-team-modeling-organizational-behavior-of-concurrent-design-teams/1E7B5165954C1B9B303E412933E28029'
+        })
+    </script>
+<script type="text/javascript">
+    </script>
+</body>
+</html>
